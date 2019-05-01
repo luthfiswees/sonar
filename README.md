@@ -78,3 +78,15 @@ You could add or change it to your needs. For example here is how I use it
 ```
 
 And then, restart the app. It will check if `My Rails App`, `My Image Microservice`, and `My Elasticsearch`is up on their respective machine or not.
+
+After that, access the `/data` endpoint. By default. Sonar will serve in port `1414`
+
+You will get response like this
+
+```json
+{
+    "Data": "My Rails App is Off\nMy Image Microservice is On\nMy Elasticsearch is On"
+}
+```
+
+And that's about it
